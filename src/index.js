@@ -59,12 +59,12 @@ Reveal.initialize({
   display: 'flex',
   history: true,
   disableLayout: false,
-  center: false,
+  center: true,
   hideInactiveCursor: true,
   hideCursorTime: 250,
-  controls: false,
-  progress: false,
-  rollingLinks: false
+  controls: true,
+  progress: true,
+  rollingLinks: true
 })
 
 Reveal.addKeyBinding({ keyCode: 84, key: 'T', description: 'Toggle footer display' }, () => {
@@ -143,7 +143,7 @@ Reveal.on('ready', () => {
 
   let menuHead = document.createElement('div')
   menuHead.className = 'menu-headline'
-  menuHead.innerText = 'Documents'
+  menuHead.innerText = 'Lezioni'
   menuNav.appendChild(menuHead)
 
   Menu.sort((a, b) => {
