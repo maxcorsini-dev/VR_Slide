@@ -5,12 +5,15 @@
     "filename": "01_01",
     "title": "Lezione 1 - Introduzione alla Realtà Virtuale e al Metaverso" }
 ,{
-    "filename": "99_01",
-    "title": "Next Steps" }
-,{
     "filename": "demo",
     "title": "Opinionated Reveal.js" }
 ,{
     "filename": "slides",
     "title": "" }
+,{
+    "filename": "01_02",
+    "title": "Lezione 2 - Strumenti e Tecnologie per la VR" }
+,{
+    "filename": "01_03",
+    "title": "Lezione 3 - Workshop Pratico Creazione di Contenuti Didattici in VR" }
 ]
